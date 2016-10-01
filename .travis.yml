@@ -3,3 +3,6 @@ python:
   - "2.7"
 # command to run tests
 script: make test
+addons:
+    code_climate:
+        repo_token: 53ccaec668b996b67574b2fcf9a844a064905ceeca2f0784f72569eacc876aac
